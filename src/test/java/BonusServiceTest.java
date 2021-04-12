@@ -45,7 +45,7 @@ class BonusServiceTest {
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
 
-        // производим проверку (сравниваем ожидаемые и фактический):
+        // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
 
@@ -60,7 +60,7 @@ class BonusServiceTest {
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
 
-        // производим проверку (сравниваем ожидаемые и фактический):
+        // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
 }
